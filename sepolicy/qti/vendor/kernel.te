@@ -1,1 +1,4 @@
 allow kernel vendor_file:file r_file_perms;
+
+allow kernel proc:file { read };
+
